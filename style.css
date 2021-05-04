@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#Muscle p {
+  color: blue;
+}
+#Ville p {
+  color: blue;
+}
+#Drift p {
+  color: yellow;
+}
+@media (min-width: 400px) and (max-width: 800px) {
+  body {
+    background-color: red;
+  }
+}
+@media screen and (max-width: 850px) {
+  #Muscle p {
+    color: black;
+  }
+}
